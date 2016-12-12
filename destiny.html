@@ -1,0 +1,12 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="destiny.css">
+</head>
+<body>
+
+{foreach from=$characters item=guardians}
+	<div class="guardian-select-dashboard" style="background: url('https://www.bungie.net{$guardians.backgroundPath}') no-repeat;">
+		<img src="https://www.bungie.net{$guardians.emblemPath}" class="guardian-emblem" />
+	</div>
+{/foreach}
+
+</body>

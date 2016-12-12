@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.guardian-select-dashboard{
+	width: 475px;
+	height: 96px;
+	margin-bottom: 10px;
+}
+
+.guardian-select-dashboard .guardian-emblem{
+	position: absolute;
+	left: 0;
+}
